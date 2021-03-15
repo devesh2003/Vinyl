@@ -1,0 +1,22 @@
+A all in one scanner to detect basic bugs
+
+General Flow:
+-Directory and file searching
+-Compiling a list of possible attack surface
+-Passing the relevant links to the relevant modules
+
+Modules:
+-CORS
+-Host header injections
+-XSS
+-SQL
+-JS file analyzer
+-Source code analyzer
+-Comments extractor
+-403 and 401 bypasses
+-Subdomain finder
+-Template injection
+-OS Command injection
+-GraphQL fuzzer
+-File upload fuzzer
+-Arbitrary file read fuzzer
